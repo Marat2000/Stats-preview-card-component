@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+
+
+html
+{
+	background-color: hsl(233, 47%, 7%);
+	font-size:15px;
+	color:hsl(0, 0%, 100%);	
+	font-family: 'Inter', sans-serif;
+	font-weight:700;
+	display:grid;
+	place-items:center;
+	text-align:center;
+	min-height:100vh;
+	
+	
+}
+
+.desktop-img
+{width:0px;
+height:0px;}
+
+body
+{
+	margin:0;
+	padding:0;
+}
+
+
+
+footer
+{
+	position:fixed;
+	bottom:0;
+}
+
+main
+{
+	position:relative;
+	background-color:hsl(244, 38%, 16%) ;
+	width:19rem;
+	border-radius:0 0 1rem 1rem;
+	padding:1.5rem;
+	z-index:3;
+	
+	
+}
+
+h1 span
+{
+	color:hsl(277, 64%, 61%);
+}
+
+.violet
+{
+	background-color:hsl(277, 64%, 61%);
+	width:21.99rem;
+	height:17rem;
+	position:absolute;
+	border-radius: 1rem 1rem 0 0;
+	z-index:1;
+	
+}
+
+img
+{
+	
+	z-index:2;
+	filter:sepia(1) brightness(0.45)  hue-rotate(235deg)  saturate(3); 
+	opacity:0.7;
+	border-radius: 1rem 1rem 0 0;
+	width:22rem;
+	margin-bottom:-1rem;
+}
+
+.image
+{
+	display:flex;
+}
+
+.numbers div
+{
+	display:grid;
+	place-items:center;
+	font-size:1.7rem;
+	line-height:3rem;
+	text-transform:uppercase;
+	
+	
+}
+
+.numbers span
+{
+	font-size:0.9rem;
+	color:hsla(0, 0%, 100%, 0.6);
+	font-family: 'Lexend Deca', sans-serif;
+	
+}
+
+
+
+p
+{
+	color:hsla(0, 0%, 100%, 0.75);
+	font-weight:400;
+	font-size:1.05rem;
+	line-height:1.8rem;
+}
+
+/**************************************************/
+
+@media (min-width:600px)
+{
+
+h1
+{
+	font-size:2.2rem;
+}
+	
+main
+{
+	text-align:left;
+	width:25rem;
+	border-radius:1rem 0 0 1rem;
+	padding:3rem 7rem 3rem  4rem;
+	z-index:3;
+	
+	
+}
+
+.numbers
+{
+	display:flex;
+	margin-top:3rem;
+	
+}
+
+.numbers div
+{
+	
+	margin-right:3rem;
+}
+
+body
+{
+	display:flex;
+	height:28rem;
+	flex-direction:row-reverse;
+	justify-content:center;
+}
+
+.mobile-img
+{
+	display:none;
+}
+
+
+.violet
+{
+	height:28rem;
+	width:33.9rem;
+	border-radius:0 1rem  1rem 0 ;
+
+	
+}
+
+
+
+.desktop-img
+{
+
+	border-radius:0 1rem  1rem 0 ;
+	height:28rem;
+	width:auto;
+}
+
+
+}
+
